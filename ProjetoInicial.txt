@@ -1,0 +1,11 @@
+sqlite> CREATE TABLE cadastro(
+   ...> CPF VARCHAR(11) NOT NULL PRIMARY KEY,
+   ...> Nome VARCHAR(50) NOT NULL,
+   ...> Data_cadastro text NOT NULL,
+   ...> Data_nascimento text NOT NULL,
+   ...> UF VARCHAR(2) NOT NULL,
+   ...> TELEFONE1 VARCHAR(15) NOT NULL,
+   ...> TELEFONE2 VARCHAR(15) NOT NULL,
+   ...> TELEFONE3 VARCHAR(15)
+   ...> );
+   sqlite> insert into cadastro values ('13146210681', 'Juan Lucas Paiva Souza', '13/01/2021 17:43', '02/10/2001', 'MG', '+55031973001137', '+5503133333333', '');
